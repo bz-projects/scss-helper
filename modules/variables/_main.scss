@@ -1,0 +1,52 @@
+/**
+*  Color
+*  @use  background-color: map-get( $colors, dark );
+*/ 
+
+$colors: (
+    trans: transparent,
+    primary: #005b96,
+    secondary: #e6e6ea,
+ 
+    white: #ffffff,
+    light: #f4f4f8,
+
+    black: #000000,
+    dark: #2a363b,
+
+    light-grey: #949a98,
+    grey: #4a4e4d,
+);
+
+// Color
+$fonts: (
+    primary: 'Open Sans',
+    secondary: 'Lato',
+);
+
+// Spacing
+$spacing: (
+    main: 40px,
+    half: 20px,
+    small: 10px,
+);
+
+// CSS Color Variables
+:root {
+
+    // Colors 
+    @each $name, $colors in $colors {
+        --color-#{$name}: $colors;
+    }
+
+    // Fonts
+    @each $name, $fonts in $fonts {
+        --font-#{$name}: $fonts, sans-serif;
+    }
+
+    // Spacing
+    @each $name, $spacing in $spacing {
+        --space-#{$name}: $spacing;
+    }
+
+}
