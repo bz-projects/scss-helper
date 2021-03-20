@@ -1,5 +1,12 @@
-/**
-*   SCSS Import
-*/ 
+// Globals
+@import './vars/colors';
+@import './vars/fonts';
+@import './vars/spacing';
 
-@import 'modules';
+// Mixins
+@import './mixins/breakpoints';
+
+// Placeholders
+@import './holders/color';
+@import './holders/fonts';
+@import './holders/position';

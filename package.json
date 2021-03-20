@@ -1,6 +1,6 @@
 {
   "name": "scss-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SCSS Helper Package",
   "main": "style.scss",
   "repository": {
