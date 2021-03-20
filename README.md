@@ -6,7 +6,7 @@
 #### Full lightweight collection of SCSS Variables, Mixins and Placeholders
 
 
-[![https://nodei.co/npm/@bz-projects/scss-helper.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@bz-projects/scss-helper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/YOUR-MODULE-NAME)
+[![https://nodei.co/npm/@bz-projects/scss-helper.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@bz-projects/scss-helper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@bz-projects/scss-helper)
 
   [![Build Status](https://travis-ci.com/bz-projects/scss-helper.svg?branch=master)](https://travis-ci.com/bz-projects/scss-helper) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org)
 
