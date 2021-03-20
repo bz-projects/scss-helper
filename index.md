@@ -1,37 +1,39 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/bz-projects/scss-helper/edit/doc/index.md) to maintain and preview the content for your website in Markdown files.
+## SCSS Helper
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  
 
-### Markdown
+#### Full lightweight collection of SCSS Variables, Mixins and Placeholders
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+[![https://nodei.co/npm/@bz-projects/scss-helper.png?downloads=true&downloadRank=true&stars=true](https://nodei.co/npm/@bz-projects/scss-helper.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/@bz-projects/scss-helper)
 
-# Header 1
-## Header 2
-### Header 3
+  [![Build Status](https://travis-ci.com/bz-projects/scss-helper.svg?branch=master)](https://travis-ci.com/bz-projects/scss-helper) [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org)
 
-- Bulleted
-- List
+This is my development package for clean CSS Code. Here in this package you have a collection
 
-1. Numbered
-2. List
+of SASS Placeholders and Mixins and much more.
 
-**Bold** and _Italic_ and `Code` text
+  
 
-[Link](url) and ![Image](src)
+### Installation
+
+  
+
+Install Node.js and run this short command 
+
+```
+npm i @bz-projects/scss-helper
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If you want to save to your development dependencies
+```
+npm i @bz-projects/scss-helper --save-dev
+```
 
-### Jekyll Themes
+### Config
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bz-projects/scss-helper/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Import all SCSS Files into your custom scss file. 
+```
+@import '../node_modules/@bz-projects/scss-helper/style';
+```
