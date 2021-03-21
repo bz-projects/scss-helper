@@ -60,15 +60,19 @@ $color-black: #000000;
 $color-dark: #2a363b;
 $color-light-grey: #949a98;
 $color-grey: #4a4e4d;
+
 // Fonts 
 $fonts-primary: 'Open Sans';
 $fonts-secondary: 'Lato';
+
 // Spacing 
 $spacing-main: 40px;
 $spacing-half: 20px;
 $spacing-small: 10px;
+
 // Import all SCSS functions
 @import '@bz-projects/scss-helper/style';
+
 // Write your SCSS Code
 body {
     @extend %bg-primary;
