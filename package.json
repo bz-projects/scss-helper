@@ -1,8 +1,9 @@
 {
   "name": "@bz-projects/scss-helper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "SCSS Helper Package",
   "main": "style.scss",
+  "keyword": "scss helper", 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bz-projects/scss-helper.git"
