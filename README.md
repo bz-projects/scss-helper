@@ -42,7 +42,7 @@ or
 @import '@bz-projects/scss-helper/style';
 ```
 
-### Overvide
+### Override SCSS variables
 
 1. Create your SCSS File 
 2. Import the style of the NPM Package. See Config
