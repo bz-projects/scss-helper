@@ -1,14 +1,12 @@
-$colors: (
-    trans: transparent,
-    primary: #005b96,
-    secondary: #e6e6ea,
- 
-    white: #ffffff,
-    light: #f4f4f8,
+$color-trans: transparent !default;
+$color-primary: #005b96 !default;
+$color-secondary: #e6e6ea !default;
 
-    black: #000000,
-    dark: #2a363b,
+$color-white: #ffffff !default;
+$color-light: #f4f4f8 !default;
 
-    light-grey: #949a98,
-    grey: #4a4e4d,
-);
+$color-black: #000000 !default;
+$color-dark: #2a363b !default;
+
+$color-light-grey: #949a98 !default;
+$color-grey: #4a4e4d !default;

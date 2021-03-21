@@ -1,33 +1,33 @@
 %bg-trans {
-    background-color: map-get( $colors, trans ); 
+    background-color: $color-trans; 
 }
 
 %bg-primary {
-    background-color: map-get( $colors, primary ); 	 
+    background-color: $color-primary; 	 
 }
 
 %bg-secondary {
-    background-color: map-get( $colors, secondary ); 
+    background-color: $color-secondary; 
 }
 
 %bg-dark {
-    background-color: map-get( $colors, dark );
+    background-color: $color-dark;
 }
 
 %bg-grey {
-    background-color: map-get( $colors, grey );
+    background-color: $color-grey;
 }
 
 %bg-light {
-    background-color: map-get( $colors, light );
+    background-color: $color-light;
 }
 
 %bg-black {
-    background-color: map-get( $colors, black );
+    background-color: $color-black;
 }
 
 %bg-white {
-    background-color: map-get( $colors, white );
+    background-color: $color-white;
 }
 
 /** 
@@ -35,33 +35,33 @@
 */ 
 
 %color-trans {
-    color: map-get( $colors, trans );
+    color: $color-trans;
 }
 
 %color-primary {
-    color: map-get( $colors, primary );
+    color: $color-primary;
 }
 
 %color-secondary {
-    color: map-get( $colors, secondary );
+    color: $color-secondary; 
 }
 
 %color-dark {
-    color: map-get( $colors, dark );
+    color: $color-dark;
 }
 
 %color-grey {
-    color: map-get( $colors, grey );
+    color: $color-grey;
 }
 
 %color-light {
-    color: map-get( $colors, light );
+    color: $color-light;
 }
 
 %color-black {
-    color: map-get( $colors, black );
+    color: $color-black;
 }
 
 %color-white {
-    color: map-get( $colors, white );
+    color: $color-white;
 }

@@ -2,11 +2,11 @@
 
     // Family
     &--primary {
-        font-family: map-get( $fonts, primary );
+        font-family: $fonts-primary;
     }
 
     &--secondary {
-        font-family: map-get( $fonts, secondary );
+        font-family: $fonts-secondary;
     }
 
     // Weight
