@@ -37,3 +37,7 @@ Import all SCSS Files into your custom scss file.
 ```
 @import '../node_modules/@bz-projects/scss-helper/style';
 ```
+Or 
+```
+@import '@bz-projects/scss-helper/style';
+```
