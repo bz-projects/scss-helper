@@ -1,6 +1,6 @@
 {
   "name": "@bz-projects/scss-helper",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SCSS Helper Package",
   "main": "style.scss",
   "keyword": "scss helper", 
